@@ -1,0 +1,9 @@
+vendor
+.env
+__MACOSX/
+nc_assets
+.well-known
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+.vscode
