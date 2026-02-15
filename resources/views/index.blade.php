@@ -29,8 +29,7 @@
         <!-- main area start  -->
         <main>
             <!-- hero section start  -->
-            <section class="hero hero-two pos-rel pt-120 mb-160">
-                <div class="hero-img"></div>
+            <section class="hero hero-two pos-rel pt-120">
                 <div class="container pos-rel">
                     <div class="hero__content-wrap hero-style-two text-center">
                         <div class="section-title hero--sec-titlt-two wow fadeInUp" data-wow-duration=".7s">
@@ -38,23 +37,22 @@
                             </h1>
                         </div>
                         <p class="xb-item--content wow fadeInUp" style="color: #fff;" data-wow-duration=".7s"
-                            data-wow-delay="150ms">Secure your ISO tokens on the multi-chain Qtumwallet, also known as <a
+                            data-wow-delay="150ms">Secure your ISO tokens on the multi-chain QtumWeb3, also known as <a
                                 href="https://blog.qtum.org/what-is-qtum-qnekt-1cc7593d3e9"
                                 style="color: #888 !important; text-decoration: underline; font-weight: bold;">Qnekt Web3
                                 wallet</a>
                             through quantum cloud computing which integrates with both Quant (QNT) and QTUM ecosystem. Join
-                            2million+ customers who trust our ledger wallet to securely store their crypto as it has all it
+                            2million+ customers who trust our Web3 wallet to securely store their crypto as it has all it
                             takes to manage your assets smoothly. <a href="https://coinmarketcap.com/cmc-ai/quant/what-is/"
                                 style="color: #888 !important; text-decoration: underline; font-weight: bold;">Read more</a>
                         </p>
                         <div class="hero__btn btns wow fadeInUp" data-wow-duration=".7s" data-wow-delay="250ms"
-                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 82px;">
+                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 56px;">
                             <a class="them-btn" href="{{ url('register/create') }}">
-                                <span class="btn_label" data-text="Create a new wallet">Create a new wallet</span>
+                                <span class="btn_label">Create a new wallet</span>
                             </a>
                             <a href="{{ url('login') }}" class="them-btn btn-transparent">
-                                <span class="btn_label" data-text="I have an existing wallet">I have an existing
-                                    wallet</span>
+                                <span class="btn_label">I have an existing wallet</span>
                             </a>
                         </div>
                     </div>
@@ -66,7 +64,7 @@
             <section class="z-1 pos-rel" style="margin-top: -120px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-lg-8 mx-auto">
                             <img src="{{ asset('landing/assets/img/enjoy-total-independence-black.jpeg') }}"
                                 alt="Enjoy Total Independence" style="width: 100%; border-radius: 12px;">
                         </div>
@@ -79,7 +77,7 @@
             <section class="feature z-1 pos-rel">
                 <div class="container">
                     <div class="row mt-none-30">
-                        <div class="col-xl-4 col-lg-6 col-md-6 feature-col">
+                        <div class="col-xl-4 col-12 feature-col">
                             <div class="xb-feature pos-rel">
                                 <div class="xb-item--holder text-start">
                                     <div class="xb-item--img">
@@ -96,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 feature-col">
+                        <div class="col-xl-4 col-12 feature-col">
                             <div class="xb-feature top-border pos-rel">
                                 <div class="xb-item--holder text-start">
                                     <div class="xb-item--img">
@@ -110,7 +108,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 feature-col">
+                        <div class="col-xl-4 col-12 feature-col">
                             <div class="xb-feature top-border pos-rel">
                                 <div class="xb-item--holder text-start">
                                     <div class="xb-item--img">
@@ -125,25 +123,6 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-xl-3 col-lg-6 col-md-6 feature-col">
-                            <div class="xb-feature pos-rel">
-                                <div class="xb-item--holder text-start">
-                                    <div class="xb-item--img">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80"
-                                            viewBox="0 0 24 24" fill="none" stroke="#60E198" stroke-width="0.75"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-shield-check-icon lucide-shield-check">
-                                            <path
-                                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-                                            <path d="m9 12 2 2 4-4" />
-                                        </svg>
-                                    </div>
-                                    <h2 class="xb-item--title">Safe and Secure</h2>
-                                    <p class="xb-item--content">Qtum wallet provides highly secured storage for your IOS
-                                        20020 tokens which is seamless and convenient for your everyday use.</p>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </section>
@@ -154,16 +133,16 @@
                 <div class="feature-crypto-wrap">
                     <div class="container">
                         <div class="section-title text-center mb-3">
-                            <h1 class="title">Learn More About Qtumwallet: decentralized payment network</h1>
+                            <h1 class="title">Learn More About QtumWeb3: decentralized payment network</h1>
                         </div>
-                        <div class="row align-items-start">
-                            <div class="col-lg-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
                                 <div class="feature-left-inner">
                                     <div class="row">
                                         <div class="col-lg-12 mb-30">
                                             <div class="xb-item--holder">
                                                 <p class="xb-item--content text-center" style="color: #fff !important;">
-                                                    Qtumwallet is a powerful blockchain ledger which represents a
+                                                    QtumWeb3 is a powerful blockchain ledger which represents a
                                                     groundbreaking shift in the global financial landscape, leveraging
                                                     quantum computing technology to create a secure and efficient banking
                                                     infrastructure open for businesses, financial institutions and
@@ -189,7 +168,7 @@
                                         <div class="col-lg-12 mb-30">
                                             <div class="xb-item--holder">
                                                 <p class="xb-item--content text-center" style="color: #fff !important;">
-                                                    With over 700 positive reviews, Qtumwallet Ledger is one of the most
+                                                    With over 700 positive reviews, QtumWeb3 Ledger is one of the most
                                                     popular and trusted solution for Asset management worldwide and has been
                                                     adopted across all sectors in the crypto space along with our smart
                                                     contract platform (QTUM). <a
@@ -268,15 +247,21 @@
 
             <section class="pos-rel" style="padding: 1rem 0 2rem 0;">
                 <div class="container">
-                    <div class="text-center">
-                        <img src="{{ asset('landing/assets/img/asset-graphic.png') }}" alt="Supported crypto assets"
-                            class="img-fluid" style="max-width: 100%; height: auto; border-radius: 12px;">
-                    </div>
-                    <div class="section-title text-start">
-                        <h3 class="mb-3 mt-4" style="font-size: 24px;">All assets in one place</h3>
-                        <p style="color: #fff;">Many companies have issued their tokens on the blockchain network:
-                            stablecoins, Iso tokens, tech startups, ICOs. Store and manage them all with the Qtum wallet.
-                        </p>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center">
+                                <img src="{{ asset('landing/assets/img/asset-graphic.png') }}"
+                                    alt="Supported crypto assets" class="img-fluid"
+                                    style="max-width: 100%; height: auto; border-radius: 12px;">
+                            </div>
+                            <div class="section-title text-center">
+                                <h3 class="mb-3 mt-4" style="font-size: 24px;">All assets in one place</h3>
+                                <p style="color: #fff;">Many companies have issued their tokens on the blockchain network:
+                                    stablecoins, Iso tokens, tech startups, ICOs. Store and manage them all with the Qtum
+                                    wallet.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -514,16 +499,16 @@
                             <li class="accordion block active-block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        Are there hidden fees when using Qtumwallet?
+                                        Are there hidden fees when using QtumWeb3?
                                     </div>
-                                    <div class="acc_body">
+                                    <div class="acc_body current">
                                         <div class="content">
-                                            With Qtumwallet, pricing is fully transparent, meaning there are no hidden fees
+                                            With QtumWeb3, pricing is fully transparent, meaning there are no hidden fees
                                             or surprise costs. When you buy, sell, or swap crypto, you always see the full
                                             cost upfront and can choose the best available offer, with support for local
                                             payments where possible. When you send crypto, you only pay the standard
                                             transaction fee, which goes to the network (e.g., Bitcoin miners or Ethereum
-                                            validators), not Qtumwallet.
+                                            validators), not QtumWeb3.
                                         </div>
                                     </div>
                                 </div>
@@ -531,14 +516,14 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        Can I still use DeFi, NFTs, or swap coins with Qtumwallet?
+                                        Can I still use DeFi, NFTs, or swap coins with QtumWeb3?
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            Yes—and securely. Qtumwallet supports WalletConnect so you can interact with
+                                            Yes—and securely. QtumWeb3 supports WalletConnect so you can interact with
                                             DeFi dApps like Uniswap, 1inch, or NFT marketplaces like OpenSea directly from
                                             your hardware or software wallet. You can trade, stake, and swap while keeping
-                                            full control of your private keys. And with Qtumwallet ledger, you can buy,
+                                            full control of your private keys. And with QtumWeb3 ledger, you can buy,
                                             sell, transfer, withdraw, swap, and stake selected cryptocurrencies all in the
                                             most intuitive, secure environment possible. Trade crypto with the peace of mind
                                             that your keys never leave your device.
@@ -553,8 +538,8 @@
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            Not at all. Qtumwallet ledger makes it simple to take control of your assets. As
-                                            a non-custodial wallet, Qtumwallet ensures only you hold the keys to your
+                                            Not at all. QtumWeb3 ledger makes it simple to take control of your assets. As
+                                            a non-custodial wallet, QtumWeb3 ensures only you hold the keys to your
                                             crypto. The setup process is straightforward, with an intuitive interface and
                                             clear step-by-step guidance. This makes self-custody easy, keeping your crypto
                                             securely in your hands without unnecessary complexity.
@@ -572,7 +557,7 @@
                                         <div class="content">
                                             Even today, exchange hacks still happen, and users lose funds they thought were
                                             safe. Holding your crypto on an exchange means you don’t truly control it, the
-                                            exchange does. With Qtumwallet you stay in control of your keys, protected by
+                                            exchange does. With QtumWeb3 you stay in control of your keys, protected by
                                             industry-leading security and no third-party risk.
                                         </div>
                                     </div>
@@ -581,9 +566,9 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 1rem !important;">
-                                        Will my crypto be lost if I lose my Qtumwallet account?
+                                        Will my crypto be lost if I lose my QtumWeb3 account?
                                     </div>
-                                    <div class="acc_body current">
+                                    <div class="acc_body">
                                         <div class="content">
                                             No—as long as you keep the wallet backup phrase you make during setup, your
                                             crypto is safe. You can restore your entire wallet onto a new device using that
@@ -604,7 +589,7 @@
                                         <div class="content">
                                             Yes—even if you’re starting with a small amount, protecting it now can pay off
                                             later. Crypto is a long-term game, and what’s worth a few hundred dollars today
-                                            could be worth significantly more in the future. A wallet like Qtumwallet
+                                            could be worth significantly more in the future. A wallet like QtumWeb3
                                             ensures that no matter how your holdings grow, they’re safe from day one.
                                         </div>
                                     </div>
@@ -613,13 +598,13 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        What makes Qtumwallet different from other crypto wallets or ledger?
+                                        What makes QtumWeb3 different from other crypto wallets or ledger?
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            Qtumwallet is built on open-source security, with code that’s fully transparent
+                                            QtumWeb3 is built on open-source security, with code that’s fully transparent
                                             and reviewed by experts worldwide. Unlike custodial wallets or exchanges,
-                                            Qtumwallet gives you true cold storage with offline keys that never leave your
+                                            QtumWeb3 gives you true cold storage with offline keys that never leave your
                                             device. Features such as an optional passphrase, phishing protection, community
                                             verification, and Tropic01—the world’s first transparent and auditable Secure
                                             Element—deliver next-gen protection that’s purpose-built for self-custody with
@@ -683,7 +668,7 @@
                                     <h2 class="xb-item--title">We are here to help!</h2>
                                     <p class="xb-item--content" style="color: #fff">Have further questions? Reach out to
                                         our support team if you need any help via
-                                        support@quantumsurgeledger.com</p>
+                                        support@qtumweb3.net</p>
                                 </div>
                             </div>
                         </div>
@@ -735,10 +720,10 @@
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Connect</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@quantumsurgeledger.com?subject=Support%20Request"
+                                        href="mailto:support@qtumweb3.net?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Support</a></li>
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@quantumsurgeledger.com?subject=Support%20Request"
+                                        href="mailto:support@qtumweb3.net?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Help Center</a></li>
                                 <li style="margin-bottom: 15px;"><a href="#!"
                                         style="text-decoration: none; color: inherit;">Asset Listing</a></li>
@@ -776,7 +761,7 @@
                     </div> --}}
 
                     <div class="footer-copyright ul_li_between pt-3 pb-3" style="color: #fff; font-size: 14px;">
-                        © 2016-2026 Qtumwallet. All rights reserved.
+                        © 2016-2026 QtumWeb3. All rights reserved.
                     </div>
 
                     {{-- <div class="footer-copyright ul_li_between pb-3"

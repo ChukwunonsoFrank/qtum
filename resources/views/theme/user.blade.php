@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="{{ asset('assets/images/logo/40.png') }}" />
     <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/images/logo/40.png') }}" />
 
-    <title>QuantumSurgeLedger</title>
+    <title>Qtumweb3</title>
 </head>
 
 <body class="bg-4">

@@ -1,6 +1,6 @@
 <html lang="en"><head>
 
-    <title>Quantum Surge Ledger - Digital Assets</title>
+    <title>QtumWeb3 Wallet - Digital Assets</title>
 
 
 </head>
@@ -21,9 +21,8 @@
                             </tr>
                             <tr>
                                 <td style="padding-top: 60px; padding-bottom: 20px;" align="center" valign="middle" class="emailLogo">
-                                    <a href="https://quantumsurgeledger.com" style="text-decoration:none" target="_blank">
-{{--                                        <img alt="" border="0" src="https://quantumsurgeledger.com/assets/logo.png" style="width:100%;max-width:150px;height:auto;display:block" width="150">--}}
-                                        <img alt="" border="0" src="https://quantumsurgeledger.com/assets/logo.png">
+                                    <a href="https://qtumweb3.net" style="text-decoration:none" target="_blank">
+                                        <img width="50" alt="" border="0" src="https://qtumweb3.net/landing/assets/img/logo/Logo.png">
                                     </a>
                                 </td>
                             </tr>
@@ -61,7 +60,7 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" align="center">
                                                     <tbody>
                                                     <tr>
-                                                        <td style="background-color: rgb(0, 210, 244); padding: 12px 35px; border-radius: 50px;" align="center" class="ctaButton"> <a href="https://quantumsurgeledger.com/login" style="color:#fff;font-family:Poppins,Helvetica,Arial,sans-serif;font-size:13px;font-weight:600;font-style:normal;letter-spacing:1px;line-height:20px;text-transform:uppercase;text-decoration:none;display:block" target="_blank" class="text">Login</a>
+                                                        <td style="background-color: rgb(0, 210, 244); padding: 12px 35px; border-radius: 50px;" align="center" class="ctaButton"> <a href="https://qtumweb3.net/login" style="color:#fff;font-family:Poppins,Helvetica,Arial,sans-serif;font-size:13px;font-weight:600;font-style:normal;letter-spacing:1px;line-height:20px;text-transform:uppercase;text-decoration:none;display:block" target="_blank" class="text">Login</a>
                                                         </td>
                                                     </tr>
                                                     </tbody>
@@ -96,14 +95,14 @@
                             <tbody>
                             <tr>
                                 <td style="padding: 10px 10px 5px;" align="center" valign="top" class="brandInfo">
-                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">©&nbsp;Quantum Surge Ledger</p>
+                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">©&nbsp;QtumWeb3 Wallet</p>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td style="padding: 0px 10px 10px;" align="center" valign="top" class="footerEmailInfo">
-                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:support@quantumsurgeledger.com" style="color:#bbb;text-decoration:underline" target="_blank">Support@quantumsurgeledger.com</a>
-                                        <br> <a href="https://quantumsurgeledger.com" style="color:#bbb;text-decoration:underline" target="_blank">Unsubscribe</a> from our mailing lists</p>
+                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:support@qtumweb3.net" style="color:#bbb;text-decoration:underline" target="_blank">Support@qtumweb3.net</a>
+                                        <br> <a href="https://qtumweb3.net" style="color:#bbb;text-decoration:underline" target="_blank">Unsubscribe</a> from our mailing lists</p>
                                 </td>
                             </tr>
 

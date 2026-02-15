@@ -5803,6 +5803,7 @@ body[data-aos-easing="ease"] [data-aos] {
   /* background: rgba(74, 33, 239, 0.18); */
   position: relative;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -5908,7 +5909,7 @@ body[data-aos-easing="ease"] [data-aos] {
 @media (max-width: 1199px) {
   .xb-feature .xb-item--content {
     max-width: 320px;
-    margin: auto;
+    /* margin: auto; */
   }
 }
 
@@ -6071,6 +6072,9 @@ body[data-aos-easing="ease"] [data-aos] {
     display: none;
   }
 }
+.feature-counter-wrap .xb-feature-inner {
+  height: 100%;
+}
 .feature-counter-wrap .xb-feature-item {
   text-align: center;
   border-radius: 20px;
@@ -6078,6 +6082,7 @@ body[data-aos-easing="ease"] [data-aos] {
   padding: 54px 0 66px 0;
   position: relative;
   z-index: 1;
+  height: 100%;
 }
 /* .feature-counter-wrap .xb-feature-item::before {
   content: "";
@@ -8187,7 +8192,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero {
-  min-height: 1190px;
+  min-height: 800px;
   background-position: center bottom;
 }
 @media (max-width: 991px) {
@@ -8666,7 +8671,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .hero-style-two {
   padding-top: 26px;
-  min-height: 1050px;
+  min-height: 800px;
 }
 @media (max-width: 767px) {
   .hero-style-two {
@@ -8982,34 +8987,12 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   position: relative;
   display: inline-block;
   padding: 27px 0px 25px;
-  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1);
-  transition: -webkit-transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1);
-  transition: transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1);
-  transition:
-    transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1),
-    -webkit-transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1);
-}
-
-.them-btn .btn_label:before {
-  top: 120%;
-  left: 50%;
-  width: 100%;
-  display: block;
-  position: absolute;
-  content: attr(data-text);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
 }
 
 .them-btn:hover {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
   color: #080b18;
-}
-
-.them-btn:hover .btn_label {
-  -webkit-transform: translateY(-81%);
-  transform: translateY(-81%);
 }
 
 .btns {
@@ -11042,7 +11025,7 @@ blockquote .quote {
 }
 
 .second-footer {
-  padding-top: 409px;
+  padding-top: 40px;
   z-index: 1;
 }
 @media (max-width: 991px) {

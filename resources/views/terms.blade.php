@@ -44,17 +44,17 @@
 
                                 <p class="xb-item--content" style="color: #fff;">
                                     TERMS OF SERVICE
-                                    Your use of the Qtumwallet and its interface ("Qtum network, ledger"), wallet, mobile
+                                    Your use of the QtumWeb3 and its interface ("Qtum network, ledger"), wallet, mobile
                                     applications, and any other application, software, platforms, and other related services
                                     provided by ledger, LLC, its subsidiaries, and affiliates or any third party designated
                                     by us (collectively, with the website, platforms, network, the "Service(s)") is subject
                                     to the terms set out below, including but not limited to the Privacy Policy of
-                                    Qtumwallet, which is hereby incorporated by reference (collectively, the "Terms").
+                                    QtumWeb3, which is hereby incorporated by reference (collectively, the "Terms").
                                 </p>
 
                                 <p class="xb-item--content" style="color: #fff;">
                                     These Terms and any of the documents referred to in the Terms create a legally binding
-                                    agreement between the person, persons, or entity ("you" or "your") and Qtumwallet. By
+                                    agreement between the person, persons, or entity ("you" or "your") and QtumWeb3. By
                                     accessing this User Agreement or using the Services, or otherwise indicating your
                                     acceptance of these Terms, you affirm that: (i) You are an individual, at least 18 years
                                     of age or older, have the capacity to enter into this User Agreement and agree to be
@@ -71,7 +71,7 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     We reserve the right to revise, change or modify the Terms, at any time, for any reason,
                                     and at our sole discretion by updating this posting. Any other changes will take effect
-                                    when posted on the Qtumwallet platform, or when you use the Services.
+                                    when posted on the QtumWeb3 platform, or when you use the Services.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
                                     If you have provided us with your email, you may be notified of any changes or
@@ -94,13 +94,13 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     Please refer to our Privacy Policy for information about how we collect, use and share
                                     your information. The information and/or data collected will be used and stored in
-                                    accordance with our Privacy Policy. Qtumwallet may update the Privacy Policy from time
+                                    accordance with our Privacy Policy. QtumWeb3 may update the Privacy Policy from time
                                     to time. It is your responsibility to review the Privacy Policy.
                                 </p>
 
                                 <h3 class="xb-item--title"
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">
-                                    Qtumwallet wallet terms</h3>
+                                    QtumWeb3 wallet terms</h3>
                                 <p class="xb-item--content" style="color: #fff;">
                                     In order to access certain Services, you may be required to provide information about
                                     yourself as part of the registration process for the Services or as part of your
@@ -109,9 +109,9 @@
                                     maintaining the confidentiality of your password and other Wallet information,
                                     including, but not limited to, the security and privacy of any crypto asset keys. You
                                     agree that you will not permit access to your login credentials to any other party and
-                                    will not hold Qtumwallet responsible for any actions taken by individuals unauthorized
+                                    will not hold QtumWeb3 responsible for any actions taken by individuals unauthorized
                                     to access your Wallet. Accordingly, You agree that you will be solely responsible to
-                                    Qtumwallet for all activity that occurs under your Wallet, and Qtumwallet is not
+                                    QtumWeb3 for all activity that occurs under your Wallet, and QtumWeb3 is not
                                     responsible for problems with your Wallet due to misuse or loss of your email address,
                                     cryptocurrency keys, and/or password.
                                 </p>
@@ -121,8 +121,8 @@
                                 </p>
                                 <ul class="list-item" style="padding-left: 2rem; color: #fff;">
                                     <li>Wallet registered by "bots" or other automated methods are not permitted.</li>
-                                    <li>Qtumwallet may send important updates related to your Wallet to the email address
-                                        provided during registration. You agree and acknowledge that Qtumwallet shall not be
+                                    <li>QtumWeb3 may send important updates related to your Wallet to the email address
+                                        provided during registration. You agree and acknowledge that QtumWeb3 shall not be
                                         responsible for any harm you may suffer as a result of your failure to receive any
                                         notice provided to you in connection with this User Agreement and your use of
                                         Services so long as such notice is provided to the email address associated with
@@ -136,11 +136,11 @@
                                         is deleted. </li>
                                     <li>After termination of your Wallet, you still remain liable for all transactions made
                                         while the Wallet was active.</li>
-                                    <li>You agree and understand that Qtumwallet reserves the right, in our sole discretion,
+                                    <li>You agree and understand that QtumWeb3 reserves the right, in our sole discretion,
                                         to immediately suspend, freeze, or terminate your Wallet in the event that you are
                                         suspected of having violated any provision of this User Agreement, believed to be in
                                         violation of Applicable Law, or are believed to be involved in activities or conduct
-                                        detrimental to Qtumwallet.
+                                        detrimental to QtumWeb3.
                                     </li>
                                 </ul>
 
@@ -148,48 +148,48 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">User
                                     representations and warranties</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    By using our Services and Qtumwallet software, in particular, you represent and warrant
+                                    By using our Services and QtumWeb3 software, in particular, you represent and warrant
                                     that you acknowledge, understand, and accept the risk of the following:
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet is provided to you by Qtumwallet, an independent commercial entity
-                                    unaffiliated with the Stellar and Ripple Development Foundation. Qtumwallet is only a
+                                    QtumWeb3 is provided to you by QtumWeb3, an independent commercial entity
+                                    unaffiliated with the Stellar and Ripple Development Foundation. QtumWeb3 is only a
                                     user interface to Qtum/Quant/Stellar/Ripple and does not operate the Qtum/Stellar/Ripple
-                                    Network. Qtumwallet is not an exchange. Qtumwallet is unable to control the actions of
-                                    others on the Stellar/Ripple network. When using Qtumwallet, you are directly
+                                    Network. QtumWeb3 is not an exchange. QtumWeb3 is unable to control the actions of
+                                    others on the Stellar/Ripple network. When using QtumWeb3, you are directly
                                     communicating with the Qtum network, Horizon Stellar/Ripple API and the Stellar/Ripple
                                     network operated by a decentralized network of several trusted organizations running
                                     validators.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Upon the creation of your Wallet or upon further usage, Qtumwallet may change the
+                                    Upon the creation of your Wallet or upon further usage, QtumWeb3 may change the
                                     "home_domain" and "inflation_destination" of your wallet, unless your wallet
                                     participates in the paying inflation pool.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
                                     You are solely responsible for storing, outside of the Services, a backup of your
-                                    Wallet, secret key or transaction information that you maintain in your Qtumwallet or
+                                    Wallet, secret key or transaction information that you maintain in your QtumWeb3 or
                                     otherwise with the Services. If you do not maintain a backup of your wallet secret key
                                     outside of the Services, you may not be able to access any supported crypto asset
-                                    previously accessed using your Qtumwallet in the event that we discontinue or no longer
+                                    previously accessed using your QtumWeb3 in the event that we discontinue or no longer
                                     offer some or all of the Services or may otherwise lose access to supported crypto
                                     asset. We are not responsible for maintaining this data on your behalf. Transaction and
                                     Qtum/Stellar/Ripple wallet data can be viewed as a piece of public information on the
                                     Qtum/Stellar/Ripple Network and can be found using blockchain explorers.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet is not a custodian of your Stellar Lumen or any other crypto assets issued on
+                                    QtumWeb3 is not a custodian of your Stellar Lumen or any other crypto assets issued on
                                     the Network. We do not have access to your tokens, crypto assets, secret keys or Wallet
                                     passwords. Under no circumstances should you attempt to store an asset no matter whether
                                     it would be considered a currency, commodity, security, utility token, or another type
-                                    of asset in your Qtumwallet that Ledger /Network does not support.
+                                    of asset in your QtumWeb3 that Ledger /Network does not support.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
                                     In order to be completed, any Virtual Currency transaction created with the Wallet must
                                     be confirmed and recorded in the cryptocurrency ledger associated with the Qtum Network.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet has no control over Stellar/Ripple Network and therefore cannot and does not
+                                    QtumWeb3 has no control over Stellar/Ripple Network and therefore cannot and does not
                                     ensure that any transaction details you submit via our Services will be confirmed on the
                                     Stellar/Ripple Network. You agree and understand that the transaction details you submit
                                     via our Services may not be completed, or may be substantially delayed by the Network
@@ -197,19 +197,19 @@
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
                                     Once transaction details have been submitted to the Network, we cannot assist you to
-                                    cancel or otherwise modify your transaction or transaction details. Qtumwallet.net has
+                                    cancel or otherwise modify your transaction or transaction details. QtumWeb3.net has
                                     no control over the Stellar/Ripple Network and does not have the ability to facilitate
                                     any cancellation or modification requests. All transaction requests on the
                                     Stellar/Ripple Network are irreversible.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet does not currently charge a fee for Qtumwallet, receiving, sending or
+                                    QtumWeb3 does not currently charge a fee for QtumWeb3, receiving, sending or
                                     controlling QTUM or any other supported crypto asset issued in the Network. However, we
                                     reserve the right to do so in the future, and in such case, any applicable fees will be
                                     displayed prior to you incurring the fee. Network fees required to make transactions on
                                     the Network may apply to a transaction. We may attempt to calculate such a fee for you.
                                     Our calculation may not be sufficient, or it may be excessive. You are solely
-                                    responsible for paying any such fee and Qtumwallet will neither advance nor fund such a
+                                    responsible for paying any such fee and QtumWeb3 will neither advance nor fund such a
                                     fee on your behalf, nor be responsible for any excess or insufficient fee calculation.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
@@ -224,20 +224,20 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">No
                                     endorsements</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Asset listings on Qtumwallet are not endorsements. Qtumwallet is a Web3 Wallet software
+                                    Asset listings on QtumWeb3 are not endorsements. QtumWeb3 is a Web3 Wallet software
                                     client ONLY and does NOT conduct any independent diligence or review of any asset issued
                                     on other Network.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
                                     Qtum/Stellar/Ripple is an open system meaning that scams and market manipulators may
-                                    exist. Prices shown on Qtumwallet or through the Services are for informational purposes
+                                    exist. Prices shown on QtumWeb3 or through the Services are for informational purposes
                                     and do not imply that they can actually be redeemed for a certain price.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet has no control over the development, operation, management, marketing, or any
-                                    other activity of any of the assets that are displayed on Qtumwallet platform or
-                                    otherwise made available through the Service and Qtumwallet. Any information displayed
-                                    on Qtumwallet platform or otherwise made available through the Service, regarding an
+                                    QtumWeb3 has no control over the development, operation, management, marketing, or any
+                                    other activity of any of the assets that are displayed on QtumWeb3 platform or
+                                    otherwise made available through the Service and QtumWeb3. Any information displayed
+                                    on QtumWeb3 platform or otherwise made available through the Service, regarding an
                                     asset is community-sourced and may be incomplete or inaccurate.
                                 </p>
 
@@ -254,10 +254,10 @@
                                     connections, the risk of failure to achieve a certain market value/price for any
                                     croptoasset issued on the Network, the risk of malicious software introduction, and the
                                     risk that third parties may obtain unauthorized access to information stored within your
-                                    Qtumwallet, including, but not limited to your public and secret keys.
+                                    QtumWeb3, including, but not limited to your public and secret keys.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    You agree and understand that Qtumwallet will not be responsible for any communication
+                                    You agree and understand that QtumWeb3 will not be responsible for any communication
                                     failures, disruptions, errors, distortions or delays you may experience when using the
                                     Services.
                                 </p>
@@ -265,7 +265,7 @@
                                     You accept and acknowledge that there are risks associated with utilizing any virtual
                                     currency network, including, but not limited to, the risk of unknown vulnerabilities in
                                     or unanticipated changes to the network protocol. You acknowledge and accept that
-                                    Qtumwallet has no control over the Stellar/Ripple Network and will not be responsible
+                                    QtumWeb3 has no control over the Stellar/Ripple Network and will not be responsible
                                     for any harm occurring as a result of such risks, including, but not limited to, the
                                     inability to reverse a transaction, and any losses in connection therewith due to
                                     erroneous or fraudulent actions.
@@ -279,7 +279,7 @@
                                     caution before engaging in crypro asset trading.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    You accept and acknowledge that Qtumwallet is not responsible for your investment
+                                    You accept and acknowledge that QtumWeb3 is not responsible for your investment
                                     losses.
                                 </p>
 
@@ -320,7 +320,7 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     Unless otherwise indicated by us, all intellectual property rights and any content
                                     provided in
-                                    connection with our Services, are the property of Qtumwallet or our licensors or
+                                    connection with our Services, are the property of QtumWeb3 or our licensors or
                                     suppliers and
                                     are protected by applicable intellectual property laws. We do not give any implied
                                     license for the use
@@ -341,7 +341,7 @@
                                     all copyrighted and other proprietary notices contained in the material provided via our
                                     Services on any
                                     copy you make of the material but failing to do so shall not prejudice
-                                    Qtumwallet intellectual
+                                    QtumWeb3 intellectual
                                     property rights therein.
                                 </p>
                                 <p class="xb-item--content" style="color: #fff;">
@@ -358,7 +358,7 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     Any rights not expressly granted herein to use the materials contained on or through our
                                     Services are
-                                    reserved by Qtumwallet in full.
+                                    reserved by QtumWeb3 in full.
                                 </p>
 
                                 <h3 class="xb-item--title"
@@ -416,7 +416,7 @@
                                     jurisdiction.
                                     Cryptocurrencies may be illegal in your area. By entering into this User Agreement, you
                                     agree to act in
-                                    compliance with and be legally bound to any and all Applicable Law. Qtumwallet
+                                    compliance with and be legally bound to any and all Applicable Law. QtumWeb3
                                     will have no
                                     obligation to monitor your compliance with any Law.
                                 </p>
@@ -425,10 +425,10 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Disclaimer
                                     of warranties</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Your use of the Services is at your sole risk. Qtumwallet provides the Services "as is"
+                                    Your use of the Services is at your sole risk. QtumWeb3 provides the Services "as is"
                                     and "as available", without warranty of any kind. We expressly disclaim, and you waive,
                                     all warranties of any kind, whether express, implied, or statutory, regarding the
-                                    Services, Qtumwallet or any QTUM/XLM/XRP granted to you by us including, without
+                                    Services, QtumWeb3 or any QTUM/XLM/XRP granted to you by us including, without
                                     limitation, any warranties of merchantability, fitness for a particular purpose, title,
                                     security, accuracy, and non-infringement.
                                 </p>
@@ -489,7 +489,7 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">
                                     Indemnification</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    You agree to indemnify and hold harmless Qtumwallet, its affiliates,
+                                    You agree to indemnify and hold harmless QtumWeb3, its affiliates,
                                     subsidiaries, directors,
                                     managers, members, officers, and employees from any and all claims, demands, actions,
                                     damages, losses,
@@ -501,8 +501,8 @@
                                     submissions you
                                     provide; or (d) violation of any rights of any other person or entity; provided however,
                                     that you shall
-                                    not indemnify Qtumwallet for claims or losses arising out of
-                                    Qtumwallet's gross
+                                    not indemnify QtumWeb3 for claims or losses arising out of
+                                    QtumWeb3's gross
                                     negligence or willful misconduct. This indemnity shall apply to your successors and
                                     assigns and will
                                     survive any termination or cancellation of this User Agreement.
@@ -512,11 +512,11 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Government
                                     Law</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    The Terms, and your relationship with Qtumwallet under the Terms, shall be
+                                    The Terms, and your relationship with QtumWeb3 under the Terms, shall be
                                     governed by the laws
                                     of Belarus, without regard to conflict of law provisions. Any disputes related to this
                                     User Agreement or
-                                    Qtumwallet Services shall be heard in the courts of Belarus.
+                                    QtumWeb3 Services shall be heard in the courts of Belarus.
                                 </p>
 
                                 <h3 class="xb-item--title"
@@ -525,13 +525,13 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     Our failure or delay in exercising any right, power or privilege under these Terms shall
                                     not operate as
-                                    a waiver thereof. You agree that if Qtumwallet does not exercise or enforce any
+                                    a waiver thereof. You agree that if QtumWeb3 does not exercise or enforce any
                                     legal right or
-                                    remedy which is contained in the Terms, or which Qtumwallet has the benefit of
+                                    remedy which is contained in the Terms, or which QtumWeb3 has the benefit of
                                     under any
-                                    applicable law, this will not be taken to be a formal waiver of Qtumwallet's
+                                    applicable law, this will not be taken to be a formal waiver of QtumWeb3's
                                     rights and that
-                                    those rights or remedies will still be available to Qtumwallet.
+                                    those rights or remedies will still be available to QtumWeb3.
                                 </p>
 
                                 <h3 class="xb-item--title"
@@ -540,7 +540,7 @@
                                 <p class="xb-item--content" style="color: #fff;">
                                     You may not transfer, assign, charge, or otherwise dispose of these Terms, or any of
                                     your rights or
-                                    obligations arising under them without prior written consent from Qtumwallet,
+                                    obligations arising under them without prior written consent from QtumWeb3,
                                     which may be
                                     withheld in our sole discretion. Any unauthorized assignment and delegation by you are
                                     void.
@@ -639,7 +639,7 @@
                                     <h2 class="xb-item--title">We are here to help!</h2>
                                     <p class="xb-item--content" style="color: #fff">Have further questions? Reach out to
                                         our support team if you need any help via
-                                        support@Qtumwallet.com</p>
+                                        support@QtumWeb3.com</p>
                                 </div>
                             </div>
                         </div>
@@ -691,10 +691,10 @@
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Connect</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@Qtumwallet.com?subject=Support%20Request"
+                                        href="mailto:support@QtumWeb3.com?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Support</a></li>
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@Qtumwallet.com?subject=Support%20Request"
+                                        href="mailto:support@QtumWeb3.com?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Help Center</a></li>
                                 <li style="margin-bottom: 15px;"><a href="#!"
                                         style="text-decoration: none; color: inherit;">Asset Listing</a></li>
@@ -720,7 +720,7 @@
                     </div>
 
                     <div class="footer-copyright ul_li_between pt-3 pb-3" style="color: #fff; font-size: 14px;">
-                        © 2016-2026 Qtumwallet. All rights reserved.
+                        © 2016-2026 QtumWeb3. All rights reserved.
                     </div>
                 </div>
             </div>

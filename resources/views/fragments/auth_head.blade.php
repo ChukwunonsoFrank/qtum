@@ -3,11 +3,11 @@
 <title>Authentication | Quantum Surge Ledger</title>
 <link href="{{asset('assets/logo.png')}}" rel="shortcut icon" type="image/x-icon">
 <meta content="en_US" property="og:locale"/>
-<meta content="QuantumSurgeLedger" property="og:site_name"/>
-<meta content="QuantumSurgeLedger - Simple and Secure  Asset Ledger." property="og:title"/>
-<meta content="https://QuantumSurgeLedger.com" property="og:url"/>
+<meta content="Qtumweb3" property="og:site_name"/>
+<meta content="Qtumweb3 - Simple and Secure  Asset Ledger." property="og:title"/>
+<meta content="https://Qtumweb3.net" property="og:url"/>
 <meta content="website" property="og:type"/>
-<meta content="QuantumSurgeLedger is a crypto wallet for the blockchain. Powerful and easy to use, QuantumSurgeLedger is the best tool for managing Lumens (XLM)."
+<meta content="Qtumweb3 is a crypto wallet for the blockchain. Powerful and easy to use, Qtumweb3 is the best tool for managing Lumens (XLM)."
       property="og:description"/>
 <meta content="{{asset('assets/static/logo.png')}}" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -21,4 +21,3 @@
 <link href="{{asset('assets/css/auth.css')}}" rel="stylesheet" type="text/css">
 <link href="{{asset('assets/style1.css')}}" rel="stylesheet" type="text/css">
 <link href="{{asset('assets/css/sweetalert.min.css')}}" rel="stylesheet" type="text/css">
-

@@ -307,7 +307,7 @@
                 <div class="wg-more-services">
                     <div class="tf-container">
                         <div class="divider mb-24"></div>
-                        <h5 class="title mb-24">Activate Qtumwallet Setup</h5>
+                        <h5 class="title mb-24">Activate QtumWeb3 Setup</h5>
                         <p class="mb-12"> Back up your wallet phrase to proceed</p>
                         <a href="/app/setup" class="tf-btn primary">Continue</a>
                     </div>

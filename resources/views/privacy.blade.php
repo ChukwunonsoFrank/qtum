@@ -46,7 +46,7 @@
                                     By accessing and using this website, you are indicating your consent to the privacy
                                     practices described in this Policy. If you do not accept these, you must not access or
                                     use the Wallet.
-                                    Qtumwallet reserves the right to change this Policy at any time. Use of the
+                                    QtumWeb3 reserves the right to change this Policy at any time. Use of the
                                     wallet/software after such changes are posted will signify your acceptance of this new
                                     policy. You should visit this page periodically to review this policy.
                                 </p>
@@ -55,9 +55,9 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">
                                     Information that we collect and how we use it</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet respects your privacy and is committed to protect the information you provide
+                                    QtumWeb3 respects your privacy and is committed to protect the information you provide
                                     us through it's platforms. We do not sell or distribute user information to third
-                                    parties unless it is legally required/authorized. Qtumwallet gather user information in
+                                    parties unless it is legally required/authorized. QtumWeb3 gather user information in
                                     order to serve your needs and respond to your information requests.
                                 </p>
 
@@ -65,11 +65,11 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Data
                                     security compliance</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    The security and privacy of your data is a crucial part of Qtumwallet business. We are
+                                    The security and privacy of your data is a crucial part of QtumWeb3 business. We are
                                     committed to respect your online privacy and recognize your need for appropriate
                                     protection and management of any personally identifiable information (“Personal
-                                    Information”) you share with us. Qtumwallet focuses on continual improvement of its
-                                    privacy policy. Qtumwallet uses commercially reasonable efforts to protect your personal
+                                    Information”) you share with us. QtumWeb3 focuses on continual improvement of its
+                                    privacy policy. QtumWeb3 uses commercially reasonable efforts to protect your personal
                                     information, including safeguards such as firewalls, password-protected databases with
                                     limited physical or electronic access, and encryption.
                                 </p>
@@ -78,7 +78,7 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Collecting
                                     user information</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet collects information about our users indirectly through our Internet access
+                                    QtumWeb3 collects information about our users indirectly through our Internet access
                                     logs. When you access our service, the browser’s domain name and Internet address is
                                     automatically collected and placed in our Internet access logs. We use this information
                                     to help visitors navigate the out services properly.
@@ -91,13 +91,13 @@
                                     Personal Information means any information that may be used to identify an individual,
                                     including, but not limited to, a first and last name, a home or other physical address
                                     and an email address or other contact information, whether at work or at home. In
-                                    general, you can visit Qtumwallet services without telling us who you are or revealing
+                                    general, you can visit QtumWeb3 services without telling us who you are or revealing
                                     any Personal Information about yourself. If you choose to provide us with your Personal
-                                    Information on the web, we may transfer that information within Qtumwallet or to
-                                    Qtumwallet third-party service providers or partners or affiliates, across borders, and
+                                    Information on the web, we may transfer that information within QtumWeb3 or to
+                                    QtumWeb3 third-party service providers or partners or affiliates, across borders, and
                                     from your country or jurisdiction to other countries or jurisdictions around the world.
-                                    Qtumwallet.net strives to comply with all applicable laws to protect your privacy.
-                                    Although legal requirements may vary from country to country, Qtumwallet.net intends to
+                                    QtumWeb3.net strives to comply with all applicable laws to protect your privacy.
+                                    Although legal requirements may vary from country to country, QtumWeb3.net intends to
                                     adhere to the principles set forth in this Online Privacy Policy even if, in connection
                                     with the above, we transfer your Personal Information from your country to countries
                                     that may not require an “adequate” level of protection for your Personal Information. In
@@ -109,7 +109,7 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Use of
                                     cookies</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet platforms may use cookies to assist in producing overall site visitor
+                                    QtumWeb3 platforms may use cookies to assist in producing overall site visitor
                                     statistics. Cookies, by themselves, cannot be used to find out the identity of any user
                                     unless they specifically tell us who they are. If you wish to, you can disable cookies
                                     on your computer by changing the settings in preferences or options menu in your
@@ -120,13 +120,13 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Disclosure
                                     of user information</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet does not rent, sell, or share personal information about you with
+                                    QtumWeb3 does not rent, sell, or share personal information about you with
                                     non-affiliated party or companies. If you have submitted user information to us through
-                                    an e-mail or through web forms, Qtumwallet maintains your security by ensuring that the
-                                    information is only distributed within Qtumwallet and associated affiliates and
+                                    an e-mail or through web forms, QtumWeb3 maintains your security by ensuring that the
+                                    information is only distributed within QtumWeb3 and associated affiliates and
                                     partners, who are all responsible for responding to your requests either directly or
                                     indirectly. We may disclose information to trusted partners who work on behalf of or
-                                    with Qtumwallet ledger under extremely strict confidentiality agreements. We may also
+                                    with QtumWeb3 ledger under extremely strict confidentiality agreements. We may also
                                     disclose information when it is necessary to share information in order to investigate,
                                     prevent, or take action regarding illegal activities, suspected fraud, situations
                                     involving potential threats to the physical safety of any person, or as otherwise
@@ -137,11 +137,11 @@
                                     style="color: #fff; font-size: 20px; margin-top: 30px; margin-bottom: 15px;">Links to
                                     third party sites</h3>
                                 <p class="xb-item--content" style="color: #fff;">
-                                    Qtumwallet ledger may provide links to other third party platforms and is not
+                                    QtumWeb3 ledger may provide links to other third party platforms and is not
                                     responsible for the contents or policies of those platforms. These links are provided to
-                                    you for convenience purposes only and Qtumwallet is not liable for inaccuracy of any
+                                    you for convenience purposes only and QtumWeb3 is not liable for inaccuracy of any
                                     information on such sites. These sites may send their own cookies to users, or otherwise
-                                    collect data or solicit personal information. If the Qtumwallet platforms links you to
+                                    collect data or solicit personal information. If the QtumWeb3 platforms links you to
                                     any third-party website, we make no representation as to the existence, sufficiency,
                                     accuracy or completeness of their Privacy Policy.
                                 </p>
@@ -151,10 +151,10 @@
                                     Intellectual property</h3>
                                 <p class="xb-item--content" style="color: #fff;">
                                     The products, technology and services described in this site may be the subject of
-                                    intellectual property rights reserved by Qtumwallet or other third parties. Nothing
+                                    intellectual property rights reserved by QtumWeb3 or other third parties. Nothing
                                     contained herein shall be construed as conferring to you in any manner, whether by
                                     implication, estoppel or otherwise, any license, title or ownership of or to any
-                                    intellectual property right of Qtumwallet or any third party.
+                                    intellectual property right of QtumWeb3 or any third party.
                                 </p>
 
                             </div>
@@ -211,7 +211,7 @@
                                     <h2 class="xb-item--title">We are here to help!</h2>
                                     <p class="xb-item--content" style="color: #fff">Have further questions? Reach out to
                                         our support team if you need any help via
-                                        support@Qtumwallet.com</p>
+                                        support@QtumWeb3.com</p>
                                 </div>
                             </div>
                         </div>
@@ -262,10 +262,10 @@
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Connect</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@Qtumwallet.com?subject=Support%20Request"
+                                        href="mailto:support@QtumWeb3.com?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Support</a></li>
                                 <li style="margin-bottom: 15px;"><a
-                                        href="mailto:support@Qtumwallet.com?subject=Support%20Request"
+                                        href="mailto:support@QtumWeb3.com?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Help Center</a></li>
                                 <li style="margin-bottom: 15px;"><a href="#!"
                                         style="text-decoration: none; color: inherit;">Asset Listing</a></li>
@@ -291,7 +291,7 @@
                     </div>
 
                     <div class="footer-copyright ul_li_between pt-3 pb-3" style="color: #fff; font-size: 14px;">
-                        © 2016-2026 Qtumwallet. All rights reserved.
+                        © 2016-2026 QtumWeb3. All rights reserved.
                     </div>
                 </div>
             </div>

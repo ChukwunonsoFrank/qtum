@@ -1,6 +1,6 @@
 <html lang="en"><head>
 
-    <title>Quantum Surge Ledger</title>
+    <title>QtumWeb3 Wallet</title>
 
 
 </head>
@@ -21,9 +21,8 @@
                             </tr>
                             <tr>
                                 <td style="padding-top: 60px; padding-bottom: 20px;" align="center" valign="middle" class="emailLogo">
-                                    <a href="https://quantumsurgeledger.com" style="text-decoration:none" target="_blank">
-{{--                                        <img alt="" border="0" src="https://https://quantumsurgeledger.com/assets/logo.png" style="width:100%;max-width:150px;height:auto;display:block" width="150">--}}
-                                        <img alt="" border="0" src="https://quantumsurgeledger.com/assets/logo.png">
+                                    <a href="https://qtumweb3.net" style="text-decoration:none" target="_blank">
+                                        <img width="50" alt="" border="0" src="https://qtumweb3.net/landing/assets/img/logo/Logo.png">
                                     </a>
                                 </td>
                             </tr>
@@ -73,14 +72,14 @@
                             <tbody>
                             <tr>
                                 <td style="padding: 10px 10px 5px;" align="center" valign="top" class="brandInfo">
-                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">©&nbsp;Quantum Surge Ledger</p>
+                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">©&nbsp;QtumWeb3 Wallet</p>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td style="padding: 0px 10px 10px;" align="center" valign="top" class="footerEmailInfo">
-                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:support@quantumsurgeledger.com" style="color:#bbb;text-decoration:underline" target="_blank">support@quantumsurgeledger.com</a>
-                                        <br> <a href="https://quantumsurgeledger.com" style="color:#bbb;text-decoration:underline" target="_blank">Unsubscribe</a> from our mailing lists</p>
+                                    <p class="text" style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:support@qtumweb3.net" style="color:#bbb;text-decoration:underline" target="_blank">support@qtumweb3.net</a>
+                                        <br> <a href="https://qtumweb3.net" style="color:#bbb;text-decoration:underline" target="_blank">Unsubscribe</a> from our mailing lists</p>
                                 </td>
                             </tr>
 
