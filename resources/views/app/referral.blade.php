@@ -32,8 +32,8 @@
                         <p class="title mb-8">Referral Link</p>
                         <div class="textarea-optional">
                             <input type="text" id="wallet"
-                                value="https://qtumweb3.net/register?i={{ $user->id * 56789 }}"
-                                class="style-border" readonly>
+                                value="https://qtumweb3.net/register/create?i={{ $user->id * 56789 }}" class="style-border"
+                                readonly>
                         </div>
                     </div>
                 </div>
