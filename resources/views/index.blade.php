@@ -10,7 +10,7 @@
                 <div class="container">
                     <div class="header__wrap ul_li_between">
                         <div class="header-logo">
-                            <a href="/"><img width="50" src="{{ asset('landing/assets/img/logo/Logo.png') }}"
+                            <a href="/"><img width="50" src="{{ asset('landing/assets/img/logo/Logo-White.png') }}"
                                     alt=""></a>
                         </div>
                         <div class="main-menu__wrap ul_li navbar navbar-expand-lg">

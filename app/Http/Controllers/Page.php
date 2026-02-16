@@ -97,7 +97,10 @@ class Page extends Controller
       'email' => 'required|unique:users',
       'phone_number' => 'required',
       'country' => 'required',
-      'password' => 'required'
+      'password' => 'required',
+      'terms' => 'accepted'
+    ], [
+      'terms.accepted' => 'Please agree to terms and conditions.',
     ]);
     $data = $request->except(['_token', 'recovery_phrase']);
 

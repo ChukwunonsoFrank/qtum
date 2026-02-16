@@ -56,10 +56,14 @@
                         </div>
                         <div class="optional-box mb-16">
                             <p class="title mb-8">Enter password to authorize this transaction</p>
-                            <div class="textarea-optional">
-                                <input type="password" name="password" id="password" class="style-border" placeholder=""
-                                    required>
-                            </div>
+                            <fieldset class="box-auth-pass mb-12 tf-field icon-absolute">
+                                <input type="password" name="password" placeholder="" id="id_email-rawPassword"
+                                    class="password-field" style="padding-left: 16px !important;" required>
+                                <span class="show-pass">
+                                    <span class="icon-eye"></span>
+                                    <span class="icon-eye-off"></span>
+                                </span>
+                            </fieldset>
                         </div>
                     </div>
                     <div class="fixed-bottom-btn">
