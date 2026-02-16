@@ -47,7 +47,7 @@
                                 style="color: #888 !important; text-decoration: underline; font-weight: bold;">Read more</a>
                         </p>
                         <div class="hero__btn btns wow fadeInUp" data-wow-duration=".7s" data-wow-delay="250ms"
-                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 56px;">
+                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 115px;">
                             <a class="them-btn" href="{{ url('register/create') }}">
                                 <span class="btn_label">Create a new wallet</span>
                             </a>
@@ -61,7 +61,7 @@
             <!-- hero section end  -->
 
             <!-- enjoy independence section start -->
-            <section class="z-1 pos-rel" style="margin-top: -120px;">
+            <section class="z-1 pos-rel" style="margin-top: -146px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-8 mx-auto">
