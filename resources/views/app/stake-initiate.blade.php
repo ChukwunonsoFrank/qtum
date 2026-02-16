@@ -93,3 +93,21 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <script>
+        const apyToDuration = { '6': '3', '13': '6', '20': '12' };
+        const durationToApy = { '3': '6', '6': '13', '12': '20' };
+
+        const aprRate = document.getElementById('apr_rate');
+        const duration = document.getElementById('duration');
+
+        aprRate.addEventListener('change', function () {
+            duration.value = apyToDuration[this.value];
+        });
+
+        duration.addEventListener('change', function () {
+            aprRate.value = durationToApy[this.value];
+        });
+    </script>
+@endpush

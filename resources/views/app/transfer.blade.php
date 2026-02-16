@@ -21,16 +21,33 @@
             </div>
 
             <div class="bottom-page-send-request">
-                <form method="POST">
+                <form method="POST" action="{{ route('app.transfer.post') }}">
                     @csrf
                     <div class="tf-container" style="margin-top: 5rem;">
+                        @if ($errors->any())
+                            <div class="alert alert-danger mb-16">
+                                <ul class="mb-0">
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        @if (session('success'))
+                            <div class="alert alert-success mb-16">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                         <div class="category-select mb-16">
                             <p class="title mb-8">Asset</p>
                             <div class="default-select">
                                 <select name="asset" id="asset">
                                     @foreach ($user->assets as $asset)
                                         <option value="{{ $asset->asset->id }}">
-                                            {{ strtoupper($asset->asset->name) }}</option>
+                                            {{ strtoupper($asset->asset->name) }}@if ($asset->asset->network)
+                                                ({{ strtoupper($asset->asset->network) }})
+                                            @endif
+                                        </option>
                                     @endforeach
                                 </select>
                                 <div class="icon">
@@ -38,14 +55,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="optional-box">
+                        <div class="optional-box mb-16">
                             <p class="title mb-8">Amount</p>
                             <div class="textarea-optional">
                                 <input type="number" name="amount" id="amount" class="style-border"
                                     placeholder="Amount" required step="any">
                             </div>
                         </div>
-                        <div class="optional-box">
+                        <div class="optional-box mb-16">
                             <p class="title mb-8">Receiving Wallet</p>
                             <div class="textarea-optional">
                                 <input type="text" name="wallet" id="wallet" class="style-border"

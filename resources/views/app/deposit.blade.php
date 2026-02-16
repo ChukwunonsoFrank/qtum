@@ -39,7 +39,10 @@
                                 <select name="wallet" id="wallet">
                                     @foreach ($assets as $asset)
                                         <option value="{{ $asset->asset->id }}">
-                                            {{ strtoupper($asset->asset->name) }}</option>
+                                            {{ strtoupper($asset->asset->name) }}@if ($asset->asset->network)
+                                                ({{ strtoupper($asset->asset->network) }})
+                                            @endif
+                                        </option>
                                     @endforeach
                                 </select>
                                 <div class="icon">
@@ -57,8 +60,8 @@
                         <div class="optional-box mb-16">
                             <p class="title mb-8">Enter password to authorize this transaction</p>
                             <fieldset class="box-auth-pass mb-12 tf-field icon-absolute">
-                                <input type="password" name="password" placeholder="" id="id_email-rawPassword"
-                                    class="password-field" style="padding-left: 16px !important;" required>
+                                <input type="password" name="password" placeholder="" class="password-field"
+                                    style="padding-left: 16px !important;" required>
                                 <span class="show-pass">
                                     <span class="icon-eye"></span>
                                     <span class="icon-eye-off"></span>
