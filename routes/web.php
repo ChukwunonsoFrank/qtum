@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Page;
 use App\Http\Controllers\UserManager;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/link-storage', function () {
+    Artisan::call('storage:link');
+    dd('Done');
+});
 
 Route::get('/', [Page::class, 'get_index']);
 Route::get('index', [Page::class, 'get_index']);
