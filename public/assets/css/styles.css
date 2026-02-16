@@ -4548,7 +4548,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   box-shadow: 4px 8px 100px 0px rgba(0, 0, 0, 0.0784313725);
 }
 .wg-transaction-history .list {
-  padding-bottom: 32px;
+  padding-bottom: 56px;
 }
 
 .wg-my-card {
