@@ -47,7 +47,7 @@
                                 style="color: #888 !important; text-decoration: underline; font-weight: bold;">Read more</a>
                         </p>
                         <div class="hero__btn btns wow fadeInUp" data-wow-duration=".7s" data-wow-delay="250ms"
-                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 115px;">
+                            style="display: flex; flex-direction: column; gap: 15px; align-items: center; padding-top: 100px;">
                             <a class="them-btn" href="{{ url('register/create') }}">
                                 <span class="btn_label">Create a new wallet</span>
                             </a>
