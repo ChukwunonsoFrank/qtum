@@ -3,7 +3,7 @@
 @section('content')
     <div class="wrap">
         <div class="tf-container">
-            <form class="from-login" method="post" action="" novalidate="">
+            <form class="from-login" method="post" action="{{ url('login') }}">
                 @csrf
                 @if ($errors->any())
                     <div class="alert alert-danger mb-16">
@@ -25,9 +25,9 @@
                     </fieldset>
                     <fieldset class="box-auth-pass mb-12 tf-field icon-absolute">
                         <i class="icon-lock"></i>
-                        <input type="password" name="password" placeholder=" " id="pass"
+                        <input type="password" name="password" placeholder=" " id="password"
                             class="password-field tf-field-input tf-input">
-                        <label class="tf-field-label" for="pass">Password</label>
+                        <label class="tf-field-label" for="password">Password</label>
                         <span class="show-pass">
                             <span class="icon-eye"></span>
                             <span class="icon-eye-off"></span>
@@ -35,9 +35,9 @@
                     </fieldset>
                     <fieldset class="box-auth-pass mb-12 tf-field icon-absolute">
                         <i class="icon-lock"></i>
-                        <input type="password" name="password_confirmation" placeholder=" " id="pass"
+                        <input type="password" name="password_confirmation" placeholder=" " id="password_confirmation"
                             class="password-field tf-field-input tf-input">
-                        <label class="tf-field-label" for="pass">Confirm Password</label>
+                        <label class="tf-field-label" for="password_confirmation">Confirm Password</label>
                         <span class="show-pass">
                             <span class="icon-eye"></span>
                             <span class="icon-eye-off"></span>

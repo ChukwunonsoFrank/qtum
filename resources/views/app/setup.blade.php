@@ -3,21 +3,6 @@
 @section('content')
     <div class="wrap">
         <div class="wg-send-request">
-            {{-- <div class="top-page-send-request send mb-20">
-                <div class="header-2 header-fix style-bg-1">
-                    <div class="tf-container">
-                        <div class="header-content">
-                            <a href="" class="tf-btn-arrow">
-                            </a>
-                            <h5 class="title fw-5">
-                                New QSL Wallet
-                            </h5>
-                            <a href="#" class="btn-right">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
             <div class="bottom-page-send-request">
                 <div class="tf-container" style="margin-top: 2rem;">
                     <p class="text-center" style="color: #000000; font-size: 15px; line-height: 1.5; margin-bottom: 40px;">
@@ -139,13 +124,29 @@
         });
 
         document.getElementById("copy_").onclick = function() {
-            Clipboard.copy(document.getElementById("wallet").value);
+            var text = document.getElementById("wallet").value;
 
-            var toastEl = document.getElementById('copyToast');
-            var toast = new bootstrap.Toast(toastEl, {
-                delay: 3000
-            });
-            toast.show();
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(function() {
+                    var toastEl = document.getElementById('copyToast');
+                    var toast = new bootstrap.Toast(toastEl, { delay: 3000 });
+                    toast.show();
+
+                    setTimeout(function() {
+                        window.location.href = '{{ route("user_index") }}';
+                    }, 2000);
+                });
+            } else {
+                Clipboard.copy(text);
+
+                var toastEl = document.getElementById('copyToast');
+                var toast = new bootstrap.Toast(toastEl, { delay: 3000 });
+                toast.show();
+
+                setTimeout(function() {
+                    window.location.href = '{{ route("user_index") }}';
+                }, 2000);
+            }
         }
     </script>
 @endsection

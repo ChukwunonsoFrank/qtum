@@ -128,8 +128,8 @@ class Page extends Controller
   public function post_login(Request $request)
   {
     $request->validate([
-      't_key' => '',
-      'password' => '',
+      't_key' => 'required_without:password',
+      'password' => 'required_without:t_key',
       'password_confirmation' => 'required_with:password|same:password',
     ]);
 

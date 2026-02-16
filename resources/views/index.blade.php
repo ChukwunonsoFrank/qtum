@@ -37,8 +37,8 @@
                             </h1>
                         </div>
                         <p class="xb-item--content wow fadeInUp" style="color: #fff;" data-wow-duration=".7s"
-                            data-wow-delay="150ms">Secure your ISO tokens on the multi-chain QtumWeb3, also known as <a
-                                href="https://blog.qtum.org/what-is-qtum-qnekt-1cc7593d3e9"
+                            data-wow-delay="150ms">Secure your ISO tokens on the multi-chain QtumWeb3 Wallet, also known as
+                            <a href="https://blog.qtum.org/what-is-qtum-qnekt-1cc7593d3e9"
                                 style="color: #888 !important; text-decoration: underline; font-weight: bold;">Qnekt Web3
                                 wallet</a>
                             through quantum cloud computing which integrates with both Quant (QNT) and QTUM ecosystem. Join
@@ -117,7 +117,7 @@
                                             alt="">
                                     </div>
                                     <h2 class="xb-item--title" style="color: #fff;">Don’t trust, verify</h2>
-                                    <p class="xb-item--content">Qtum wallet is stubbornly open-source and trustless by
+                                    <p class="xb-item--content">QtumWeb3 wallet is stubbornly open-source and trustless by
                                         design, as it provides a highly secured storage for your ISO tokens which is
                                         seamless and convenient for your everyday use.</p>
                                 </div>
@@ -133,7 +133,7 @@
                 <div class="feature-crypto-wrap">
                     <div class="container">
                         <div class="section-title text-center mb-3">
-                            <h1 class="title">Learn More About QtumWeb3: decentralized payment network</h1>
+                            <h1 class="title">Learn More About QtumWeb3 Wallet: decentralized payment network</h1>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -142,7 +142,7 @@
                                         <div class="col-lg-12 mb-30">
                                             <div class="xb-item--holder">
                                                 <p class="xb-item--content text-center" style="color: #fff !important;">
-                                                    QtumWeb3 is a powerful blockchain ledger which represents a
+                                                    QtumWeb3 Wallet is a powerful blockchain ledger which represents a
                                                     groundbreaking shift in the global financial landscape, leveraging
                                                     quantum computing technology to create a secure and efficient banking
                                                     infrastructure open for businesses, financial institutions and
@@ -168,7 +168,7 @@
                                         <div class="col-lg-12 mb-30">
                                             <div class="xb-item--holder">
                                                 <p class="xb-item--content text-center" style="color: #fff !important;">
-                                                    With over 700 positive reviews, QtumWeb3 Ledger is one of the most
+                                                    With over 700 positive reviews, QtumWeb3 Wallet is one of the most
                                                     popular and trusted solution for Asset management worldwide and has been
                                                     adopted across all sectors in the crypto space along with our smart
                                                     contract platform (QTUM). <a
@@ -454,7 +454,8 @@
                                             <p class="sub-title"
                                                 style="color: #fff; margin-top: -0.5rem; margin-bottom: 1.5rem;">Users</p>
                                             <p class="xb-item--content" style="color: #fff;">
-                                                Qtum Wallet is a popular choice both for beginners and pros. Easily secure
+                                                QtumWeb3 Wallet is a popular choice both for beginners and pros. Easily
+                                                secure
                                                 assets!
                                             </p>
                                         </div>
@@ -471,7 +472,7 @@
                                                 Reviews
                                             </p>
                                             <p class="xb-item--content px-2" style="color: #fff;">
-                                                Users love using Qtum Wallet. Frequent updates, powerful features,
+                                                Users love using QtumWeb3 Wallet. Frequent updates, powerful features,
                                                 and reliable support makes it one of the most trusted Ledger available on
                                                 the Blockchain network.
                                             </p>
@@ -499,16 +500,17 @@
                             <li class="accordion block active-block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        Are there hidden fees when using QtumWeb3?
+                                        Are there hidden fees when using QtumWeb3 Wallet?
                                     </div>
                                     <div class="acc_body current">
                                         <div class="content">
-                                            With QtumWeb3, pricing is fully transparent, meaning there are no hidden fees
+                                            With QtumWeb3 Wallet, pricing is fully transparent, meaning there are no hidden
+                                            fees
                                             or surprise costs. When you buy, sell, or swap crypto, you always see the full
                                             cost upfront and can choose the best available offer, with support for local
                                             payments where possible. When you send crypto, you only pay the standard
                                             transaction fee, which goes to the network (e.g., Bitcoin miners or Ethereum
-                                            validators), not QtumWeb3.
+                                            validators), not QtumWeb3 Wallet.
                                         </div>
                                     </div>
                                 </div>
@@ -516,14 +518,15 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        Can I still use DeFi, NFTs, or swap coins with QtumWeb3?
+                                        Can I still use DeFi, NFTs, or swap coins with QtumWeb3 Wallet?
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            Yes—and securely. QtumWeb3 supports WalletConnect so you can interact with
+                                            Yes—and securely. QtumWeb3 Wallet supports WalletConnect so you can interact
+                                            with
                                             DeFi dApps like Uniswap, 1inch, or NFT marketplaces like OpenSea directly from
                                             your hardware or software wallet. You can trade, stake, and swap while keeping
-                                            full control of your private keys. And with QtumWeb3 ledger, you can buy,
+                                            full control of your private keys. And with QtumWeb3 Wallet, you can buy,
                                             sell, transfer, withdraw, swap, and stake selected cryptocurrencies all in the
                                             most intuitive, secure environment possible. Trade crypto with the peace of mind
                                             that your keys never leave your device.
@@ -538,8 +541,8 @@
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            Not at all. QtumWeb3 ledger makes it simple to take control of your assets. As
-                                            a non-custodial wallet, QtumWeb3 ensures only you hold the keys to your
+                                            Not at all. QtumWeb3 Wallet makes it simple to take control of your assets. As
+                                            a non-custodial wallet, QtumWeb3 Wallet ensures only you hold the keys to your
                                             crypto. The setup process is straightforward, with an intuitive interface and
                                             clear step-by-step guidance. This makes self-custody easy, keeping your crypto
                                             securely in your hands without unnecessary complexity.
@@ -557,7 +560,8 @@
                                         <div class="content">
                                             Even today, exchange hacks still happen, and users lose funds they thought were
                                             safe. Holding your crypto on an exchange means you don’t truly control it, the
-                                            exchange does. With QtumWeb3 you stay in control of your keys, protected by
+                                            exchange does. With QtumWeb3 Wallet you stay in control of your keys, protected
+                                            by
                                             industry-leading security and no third-party risk.
                                         </div>
                                     </div>
@@ -566,7 +570,7 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 1rem !important;">
-                                        Will my crypto be lost if I lose my QtumWeb3 account?
+                                        Will my crypto be lost if I lose my QtumWeb3 Wallet account?
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
@@ -589,7 +593,7 @@
                                         <div class="content">
                                             Yes—even if you’re starting with a small amount, protecting it now can pay off
                                             later. Crypto is a long-term game, and what’s worth a few hundred dollars today
-                                            could be worth significantly more in the future. A wallet like QtumWeb3
+                                            could be worth significantly more in the future. A wallet like QtumWeb3 Wallet
                                             ensures that no matter how your holdings grow, they’re safe from day one.
                                         </div>
                                     </div>
@@ -598,13 +602,15 @@
                             <li class="accordion block">
                                 <div class="accordion-inner">
                                     <div class="acc-btn" style="padding-right: 2rem !important;">
-                                        What makes QtumWeb3 different from other crypto wallets or ledger?
+                                        What makes QtumWeb3 Wallet different from other crypto wallets or ledger?
                                     </div>
                                     <div class="acc_body">
                                         <div class="content">
-                                            QtumWeb3 is built on open-source security, with code that’s fully transparent
+                                            QtumWeb3 Wallet is built on open-source security, with code that’s fully
+                                            transparent
                                             and reviewed by experts worldwide. Unlike custodial wallets or exchanges,
-                                            QtumWeb3 gives you true cold storage with offline keys that never leave your
+                                            QtumWeb3 Wallet gives you true cold storage with offline keys that never leave
+                                            your
                                             device. Features such as an optional passphrase, phishing protection, community
                                             verification, and Tropic01—the world’s first transparent and auditable Secure
                                             Element—deliver next-gen protection that’s purpose-built for self-custody with
@@ -761,7 +767,7 @@
                     </div> --}}
 
                     <div class="footer-copyright ul_li_between pt-3 pb-3" style="color: #fff; font-size: 14px;">
-                        © 2016-2026 QtumWeb3. All rights reserved.
+                        © 2016-2026 QtumWeb3 Wallet. All rights reserved.
                     </div>
 
                     {{-- <div class="footer-copyright ul_li_between pb-3"

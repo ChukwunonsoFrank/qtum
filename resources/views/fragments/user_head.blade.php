@@ -29,7 +29,7 @@
 
 <!-- Theme CSS -->
 <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css') }}">
-<title>App - User | Quantum Surge Ledger</title>
+<title>App - User | QtumWeb3 Wallet | Defi & Web3 Wallet</title>
 
 <script type="text/javascript">
     function googleTranslateElementInit() {

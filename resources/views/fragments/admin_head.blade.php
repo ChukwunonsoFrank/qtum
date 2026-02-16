@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Admin Dashboard - Quantum Surge Ledger</title>
+<title>Admin Dashboard - QtumWeb3 Wallet | Defi & Web3 Wallet</title>
 
 <link href="{{ asset('admin/assets/logo.png') }}" rel="icon" sizes="16x16" type="image/png">
 

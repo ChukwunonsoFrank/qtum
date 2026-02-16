@@ -7,7 +7,7 @@
     <meta content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers."
           name="description">
     <link href="/demo7/images/favicon.png" rel="shortcut icon">
-    <title>404 | Quantum Surge Ledger</title>
+    <title>404 | QtumWeb3 Wallet | Defi & Web3 Wallet</title>
     <link href="{{asset('assets/css/dashlite.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/theme.css')}}" id="skin-default" rel="stylesheet">
 

@@ -2223,7 +2223,7 @@ input.border-slate-200 {
 }
 
 .menubar-footer {
-  padding: 8px 0 22px;
+  padding: 8px 0 12px;
   position: relative;
   background-color: var(--white);
 }
@@ -4548,7 +4548,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   box-shadow: 4px 8px 100px 0px rgba(0, 0, 0, 0.0784313725);
 }
 .wg-transaction-history .list {
-  padding-bottom: 120px;
+  padding-bottom: 32px;
 }
 
 .wg-my-card {
