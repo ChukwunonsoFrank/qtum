@@ -25,12 +25,12 @@
                             <li>
                                 <a href="#" class="box-transaction-item style-icon">
                                     <div class="icon">
-                                        <i class="icon-mobile-pay"></i>
+                                        <img src="{{ asset($t->asset->img) }}" alt="{{ $t->asset->name }}">
                                     </div>
                                     <div class="content">
                                         <div class="top d-flex justify-content-between align-items-center">
                                             <p class="name fw-6">{{ ucfirst($t->asset->name) }}</p>
-                                            <p class="price fw-5">{{ $t->amount }} {{ $t->asset->symbol }}</p>
+                                            <p class="price fw-5">{{ $t->amount }} {{ $t->asset->name }}</p>
                                         </div>
                                         <div class="bottom d-flex justify-content-between align-items-center">
                                             <p class="text-medium">{{ $t->type_explained($t->type) }}</p>

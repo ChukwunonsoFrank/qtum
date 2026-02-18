@@ -5,6 +5,11 @@
         <div class="tf-container">
             <form class="from-login" method="post" action="{{ url('login') }}">
                 @csrf
+                @if (session('success'))
+                    <div class="alert alert-success mb-16">
+                        {{ session('success') }}
+                    </div>
+                @endif
                 @if ($errors->any())
                     <div class="alert alert-danger mb-16">
                         <ul class="mb-0">
@@ -21,7 +26,7 @@
                 <div class="middle-from">
                     <fieldset class="mb-12 icon-absolute">
                         <i class="icon-mail"></i>
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="email" name="email" placeholder="Email">
                     </fieldset>
                     <fieldset class="box-auth-pass mb-12 tf-field icon-absolute">
                         <i class="icon-lock"></i>
@@ -54,7 +59,6 @@
                     <fieldset class="mb-12 icon-absolute">
                         <textarea style="background-color: #efefef;" type="text" name="t_key" placeholder=""></textarea>
                     </fieldset>
-                    <input id="id_email-password" name="email-password" type="hidden">
                 </div>
                 <div class="bottom-from">
                     <button type="submit" class="tf-btn primary mb-12">Sign In</button>

@@ -14,6 +14,7 @@
                 </div>
 
                 <form class="from-verification-forgot from-forgot" method="post">
+                    @csrf
                     <h4 class="title">
                         Can’t sign in?
                     </h4>

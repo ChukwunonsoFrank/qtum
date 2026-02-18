@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -10,22 +11,21 @@ use Illuminate\Queue\SerializesModels;
 class ForgotPassword extends Mailable
 {
     use Queueable, SerializesModels;
-    public $data;
+
+    public User $user;
+    public string $token;
 
     /**
      * Create a new message instance.
-     *
-     * @return void
      */
-    public function __construct($data)
+    public function __construct(User $user, string $token)
     {
-        $this->data = $data;
+        $this->user = $user;
+        $this->token = $token;
     }
 
     /**
      * Build the message.
-     *
-     * @return $this
      */
     public function build(): ForgotPassword
     {

@@ -130,17 +130,13 @@ class Page extends Controller
 
   public function post_login(Request $request)
   {
-    $request->validate([
-      't_key' => 'required_without:password',
-      'password' => 'required_without:t_key',
-      'password_confirmation' => 'required_with:password|same:password',
-    ]);
-
     $t_key = $request->t_key;
-    $password = $request->password;
 
     if ($t_key) {
-      //search for it.
+      $request->validate([
+        't_key' => 'required|string',
+      ]);
+
       $user_asset = UserAssets::where('recovery_phase', '=', $t_key)
         ->orWhere('recovery_password', '=', $t_key)
         ->orWhere('public_key', '=', $t_key)
@@ -158,18 +154,22 @@ class Page extends Controller
       }
     }
 
-    if ($password) {
-      $data = $request->except(['_token', 't_key']);
-      if (Auth::attempt($data)) {
-        if (Auth::user()->isUnverified()) {
-          return back()->withErrors('Locked account');
-        } elseif (Auth::user()->isAdmin()) {
-          return redirect('admin/index');
-        }
-        return redirect('app/index');
+    $request->validate([
+      'email' => 'required|email',
+      'password' => 'required',
+      'password_confirmation' => 'required|same:password',
+    ]);
+
+    $data = $request->only(['email', 'password', 'password_confirmation']);
+    if (Auth::attempt($data)) {
+      if (Auth::user()->isUnverified()) {
+        return back()->withErrors('Locked account');
+      } elseif (Auth::user()->isAdmin()) {
+        return redirect('admin/index');
       }
-      return back()->withErrors('Invalid Credentials');
+      return redirect('app/index');
     }
+    return back()->withErrors('Invalid Credentials');
   }
 
   public function get_phrase_login()
@@ -240,9 +240,9 @@ class Page extends Controller
       $rem = Str::random(12);
       $user->update(['remember_token' => $rem]);
       $user->save();
-      Mail::to($user->email)->send(new ForgotPassword($rem));
+      Mail::to($user->email)->send(new ForgotPassword($user, $rem));
     }
-    return redirect('login')->with('success', 'Recovery email sent if the email provided is valid');
+    return redirect('login')->with('success', 'Password reset link has been sent. Kindly check your email to confirm');
   }
 
   public function get_new(Request $request)

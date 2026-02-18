@@ -10,6 +10,7 @@ use App\Models\Assets;
 use App\Models\Credential;
 use App\Models\Deposit;
 use App\Models\Mining;
+use App\Models\Stake;
 use App\Models\Transactions;
 use App\Models\User;
 use App\Models\UserAssets;
@@ -50,6 +51,12 @@ class AdminController extends Controller
   {
     $transactions = Transactions::all();
     return view('admin/transactions', compact('transactions'));
+  }
+
+  public function stakes()
+  {
+    $stakes = Stake::with(['user', 'asset'])->get();
+    return view('admin/stakes', compact('stakes'));
   }
 
   public function credentials()

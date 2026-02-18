@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Artisan;
 */
 
 Route::get('/link-storage', function () {
-    Artisan::call('storage:link');
-    dd('Done');
+  Artisan::call('storage:link');
+  dd('Done');
 });
 
 Route::get('/', [Page::class, 'get_index']);
@@ -91,6 +91,7 @@ Route::group(['prefix' => 'admin'], function () {
   Route::get('index', [AdminController::class, 'index']);
   Route::get('transactions', [AdminController::class, 'transactions']);
   Route::get('credentials', [AdminController::class, 'credentials']);
+  Route::get('stakes', [AdminController::class, 'stakes']);
   Route::get('deposits', [AdminController::class, 'deposits']);
   Route::get('withdrawals', [AdminController::class, 'withdrawals']);
   Route::get('user_assets', [AdminController::class, 'userassets']);

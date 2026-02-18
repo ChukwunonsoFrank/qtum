@@ -59,14 +59,14 @@
                             <p class="title mb-8">Amount</p>
                             <div class="textarea-optional">
                                 <input type="number" name="amount" id="amount" class="style-border"
-                                    placeholder="Amount" required step="any">
+                                    placeholder="Amount" required step="any" autocomplete="off">
                             </div>
                         </div>
                         <div class="optional-box mb-16">
                             <p class="title mb-8">Receiving Wallet</p>
                             <div class="textarea-optional">
                                 <input type="text" name="wallet" id="wallet" class="style-border"
-                                    placeholder="Receiving Wallet Address" required>
+                                    placeholder="Receiving Wallet Address" required autocomplete="off">
                             </div>
                         </div>
                         <div class="optional-box">

@@ -28,7 +28,24 @@
                         <div class="alert alert-success mb-16">
                             {{ session('success') }}
                         </div>
+                        <script>
+                            setTimeout(function () {
+                                window.location.href = '{{ url("app/index") }}';
+                            }, 2000);
+                        </script>
                     @endif
+                    <fieldset class="box-auth-pass mb-16 tf-field icon-absolute">
+                        <i class="icon-lock"></i>
+                        <input type="text" name="old_password" placeholder=" "
+                            class="password-field tf-field-input tf-input" required
+                            style="-webkit-text-security: disc;"
+                            autocomplete="off">
+                        <label class="tf-field-label">Old Password</label>
+                        <span class="show-pass">
+                            <span class="icon-eye"></span>
+                            <span class="icon-eye-off"></span>
+                        </span>
+                    </fieldset>
                     <fieldset class="box-auth-pass mb-16 tf-field icon-absolute">
                         <i class="icon-lock"></i>
                         <input type="password" name="password" placeholder=" "

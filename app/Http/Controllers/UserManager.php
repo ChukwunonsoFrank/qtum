@@ -445,10 +445,16 @@ class UserManager extends Controller
   public function post_change_password(Request $request)
   {
     $request->validate([
+      'old_password' => 'required',
       'password' => 'required|min:8|confirmed',
     ]);
 
     $user = Auth::user();
+
+    if (!Hash::check($request->old_password, $user->password)) {
+      return back()->withErrors('The old password you entered is incorrect.');
+    }
+
     $user->password = Hash::make($request->password);
     $user->save();
 

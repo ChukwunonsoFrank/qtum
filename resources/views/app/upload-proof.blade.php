@@ -93,21 +93,25 @@
 
     <script>
         let selectedType = null;
+        const fileInput = document.getElementById('proof_document');
 
-        document.querySelectorAll('.proof-item').forEach(function(item) {
-            item.addEventListener('click', function(e) {
+        document.querySelectorAll('.proof-item label').forEach(function(label) {
+            label.addEventListener('click', function(e) {
                 e.preventDefault();
-                e.stopPropagation();
 
-                const radio = this.querySelector('input[type="radio"]');
+                const item = this.closest('.proof-item');
+                const radio = item.querySelector('input[type="radio"]');
                 selectedType = radio.value;
                 radio.checked = true;
 
-                document.getElementById('proof_document').click();
+                document.querySelectorAll('.proof-item').forEach(el => el.classList.remove('active'));
+                item.classList.add('active');
+
+                setTimeout(function() { fileInput.click(); }, 0);
             });
         });
 
-        document.getElementById('proof_document').addEventListener('change', function() {
+        fileInput.addEventListener('change', function() {
             if (this.files.length > 0 && selectedType) {
                 document.querySelectorAll('.file-name').forEach(el => el.textContent = '');
                 document.getElementById(selectedType + '-file').textContent = this.files[0].name;

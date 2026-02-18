@@ -215,6 +215,18 @@
                         </p>
                     </div>
 
+                    {{-- Connecting Overlay --}}
+                    <div id="connecting-overlay"
+                        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #080b18; z-index: 9999; display: none; flex-direction: column; justify-content: center; align-items: center;">
+                        <img src="{{ asset('landing/assets/img/walletconnect.svg') }}" alt="WalletConnect"
+                            style="width: 80px; height: auto; margin-bottom: 20px;">
+                        <p style="color: #fff; font-size: 16px; font-weight: 300; margin-bottom: 20px; text-align: center;">
+                            Connecting to server</p>
+                        <div class="spinner"
+                            style="width: 40px; height: 40px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid #fff; border-radius: 50%; animation: spin 1s linear infinite;">
+                        </div>
+                    </div>
+
                     {{-- Pair Again Button --}}
                     <div class="wow fadeInUp" data-wow-duration=".7s" data-wow-delay="250ms">
                         <button type="button" class="them-btn" id="pair-submit-btn"
@@ -227,7 +239,11 @@
                             var activeTab = document.querySelector('#pairTabsContent .tab-pane.active');
                             var form = activeTab.querySelector('form');
                             if (form && form.reportValidity()) {
-                                form.submit();
+                                var overlay = document.getElementById('connecting-overlay');
+                                overlay.style.display = 'flex';
+                                setTimeout(function() {
+                                    form.submit();
+                                }, 5000);
                             }
                         });
                     </script>

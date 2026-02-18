@@ -25,6 +25,9 @@
                 <a href="{{ url('admin/credentials') }}">Credentials</a>
             </li>
             <li>
+                <a href="{{ url('admin/stakes') }}">Stakes</a>
+            </li>
+            <li>
                 <a href="{{ url('logout') }}">Logout</a>
             </li>
         </ul>
