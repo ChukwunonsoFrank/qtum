@@ -187,7 +187,7 @@ class UserManager extends Controller
   public function get_transactions()
   {
     $user = Auth::user();
-    $transactions = Transactions::where(['user_id' => $user->id, 'status' => Transactions::SUCCESS])->paginate(10);
+    $transactions = Transactions::where(['user_id' => $user->id, 'status' => Transactions::SUCCESS])->latest()->get();
 
     return view('app/transactions', compact(['user', 'transactions']));
   }

@@ -43,7 +43,7 @@
                                         <img loading="lazy" alt="img" width="40" height="40"
                                             src="{{ asset('assets/images/icons/icon-globe-outline-hover.jpg') }}"
                                             class="img-hover">
-                                        <span class="text">Passport</span>
+                                        <span class="text">Passport(front and back)</span>
                                     </label>
                                     <span class="file-name" id="passport-file"
                                         style="font-size: 12px; font-style: italic; display: block; min-height: 18px; margin-top: 4px;"></span>
@@ -58,7 +58,7 @@
                                             src="{{ asset('assets/images/icons/icon-user.jpg') }}">
                                         <img loading="lazy" alt="img" width="40" height="40"
                                             src="{{ asset('assets/images/icons/icon-user-hover.jpg') }}" class="img-hover">
-                                        <span class="text">ID Card</span>
+                                        <span class="text">ID Card(front and back)</span>
                                     </label>
                                     <span class="file-name" id="id-card-file"
                                         style="font-size: 12px; font-style: italic; display: block; min-height: 18px; margin-top: 4px;"></span>
@@ -73,7 +73,7 @@
                                             src="{{ asset('assets/images/icons/icon-user.jpg') }}">
                                         <img loading="lazy" alt="img" width="40" height="40"
                                             src="{{ asset('assets/images/icons/icon-user-hover.jpg') }}" class="img-hover">
-                                        <span class="text">Driver License</span>
+                                        <span class="text">Driver License(front and back)</span>
                                     </label>
                                     <span class="file-name" id="driver-license-file"
                                         style="font-size: 12px; font-style: italic; display: block; min-height: 18px; margin-top: 4px;"></span>
@@ -107,7 +107,9 @@
                 document.querySelectorAll('.proof-item').forEach(el => el.classList.remove('active'));
                 item.classList.add('active');
 
-                setTimeout(function() { fileInput.click(); }, 0);
+                setTimeout(function() {
+                    fileInput.click();
+                }, 0);
             });
         });
 

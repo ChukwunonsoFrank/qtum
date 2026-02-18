@@ -3,7 +3,7 @@
 @section('content')
     <div class="wrap">
         <div class="tf-container">
-            <form class="from-login" method="post" novalidate="">
+            <form class="from-login" method="post">
                 @csrf
                 <div class="top-from">
                     <h4 class="title fw-6">Recover Account</h4>

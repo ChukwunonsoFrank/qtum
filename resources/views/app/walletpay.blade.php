@@ -62,7 +62,8 @@
         </div>
     </div>
 
-    <div class="modal fade modalDown pop-up-more-services" id="confirm-modal" tabindex="-1" data-bs-keyboard="false">
+    <div class="modal fade modalDown pop-up-more-services" id="confirm-modal" tabindex="-1" data-bs-backdrop="static"
+        data-bs-keyboard="false">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="wg-more-services">

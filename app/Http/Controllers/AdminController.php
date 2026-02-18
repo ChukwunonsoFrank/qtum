@@ -225,7 +225,8 @@ class AdminController extends Controller
       $userasset = UserAssets::where(['user_id' => $deposit->user_id, 'asset_id' => $deposit->asset_id])->first();
 
       if (!$userasset) {
-        return back()->withErrors('Invalid Asset Class for user');
+        UserAssets::specificAttach($deposit->asset_id, $deposit->user_id);
+        $userasset = UserAssets::where(['user_id' => $deposit->user_id, 'asset_id' => $deposit->asset_id])->first();
       }
       $userasset->update(['amount' => ($userasset->amount + $deposit->amount)]);
       $data = (object)[];

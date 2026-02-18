@@ -53,8 +53,8 @@
                         <div class="optional-box mb-16">
                             <p class="title mb-8">Amount</p>
                             <div class="textarea-optional">
-                                <input type="number" name="amount" id="amount" class="style-border" placeholder=""
-                                    required>
+                                <input type="text" inputmode="decimal" name="amount" id="amount" class="style-border" placeholder=""
+                                    autocomplete="off" required>
                             </div>
                         </div>
                         <div class="optional-box mb-16">

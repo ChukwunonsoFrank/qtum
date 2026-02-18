@@ -2,7 +2,22 @@
 
 @section('content')
     <div class="wrap">
-        <div class="wg-send-request">
+        <div class="header-2 header-fix">
+            <div class="tf-container">
+                <div class="header-content">
+                    <a href="{{ url('app/index') }}" class="tf-btn-arrow">
+                        <i class="icon-arrow-narrow-left"></i>
+                    </a>
+                    <h6 class="title fw-5">
+                        View Wallet Phrase
+                    </h6>
+                    <a href="{{ url('app/index') }}" class="btn-right">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="wg-send-request pt-80">
             <div class="bottom-page-send-request">
                 <div class="tf-container" style="margin-top: 2rem;">
                     <p class="text-center" style="color: #000000; font-size: 15px; line-height: 1.5; margin-bottom: 40px;">
@@ -40,9 +55,15 @@
                     <div id="walletPhraseWrap" class="optional-box mb-16" style="margin-top: 4rem; display: none;">
                         <fieldset class="mb-12 icon-absolute">
                             <textarea id="wallet" name="wallet" rows="4" cols="10" wrap="soft" class="form-control"
-                                maxlength="400" style="overflow:hidden; resize:none; border-radius: 18px;background:rgb(59 59 59 / 22%); color: transparent;" required
-                                readonly>{{ $phrase }}</textarea>
+                                maxlength="400"
+                                style="overflow:hidden; resize:none; border-radius: 18px;background:rgb(59 59 59 / 22%); color: transparent;"
+                                required readonly>{{ $phrase }}</textarea>
                         </fieldset>
+                        <button type="button" id="copyPhraseBtn"
+                            class="tf-btn primary"
+                            style="display: none; margin-top: 8px; width: 100%;">
+                            Copy
+                        </button>
                     </div>
                 </div>
                 <div class="fixed-bottom-btn">
@@ -125,6 +146,15 @@
 
         document.getElementById("copy_").onclick = function() {
             document.getElementById("wallet").style.color = '';
+            document.getElementById("copyPhraseBtn").style.display = '';
+        }
+
+        document.getElementById("copyPhraseBtn").onclick = function() {
+            var text = document.getElementById("wallet").value;
+            navigator.clipboard.writeText(text).then(function() {
+                var toast = new bootstrap.Toast(document.getElementById('copyToast'));
+                toast.show();
+            });
         }
     </script>
 @endsection

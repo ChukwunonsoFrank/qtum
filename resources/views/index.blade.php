@@ -6,7 +6,7 @@
 
         <!-- header start -->
         <header id="xb-header-area" class="header-area heade-style-two">
-            <div class="xb-header">
+            <div class="xb-header stricky">
                 <div class="container">
                     <div class="header__wrap ul_li_between">
                         <div class="header-logo">

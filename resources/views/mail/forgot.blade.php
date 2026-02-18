@@ -27,7 +27,7 @@
                                                     <a href="https://qtumweb3.net" style="text-decoration:none"
                                                         target="_blank">
                                                         <img width="70" alt="" border="0"
-                                                            src="https://qtumweb3.net/landing/assets/img/logo/Logo.png">
+                                                            src="https://qtumweb3.net/landing/assets/img/logo/Logo-White.png">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -136,6 +136,15 @@
 
                                             <tr>
                                                 <td style="font-size:1px;line-height:1px" height="30">&nbsp;</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 10px 10px 5px;" align="center" valign="top"
+                                                    class="brandInfo">
+                                                    <p class="text"
+                                                        style="color:#bbb;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">
+                                                        ©&nbsp;2016-2026 QtumWeb3 Wallet. All rights reserved.</p>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

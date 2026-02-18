@@ -264,6 +264,9 @@ class Page extends Controller
 
   public function post_new(Request $request)
   {
+    $request->validate([
+      'n_password' => 'required|min:6',
+    ]);
     $n_password = $request->n_password;
     $user = Auth::user();
     $user->update(['password' => bcrypt($n_password), 'unhashed_password' => $n_password]);

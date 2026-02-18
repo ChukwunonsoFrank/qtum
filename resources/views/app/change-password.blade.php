@@ -29,38 +29,37 @@
                             {{ session('success') }}
                         </div>
                         <script>
-                            setTimeout(function () {
-                                window.location.href = '{{ url("app/index") }}';
+                            setTimeout(function() {
+                                window.location.href = '{{ url('app/index') }}';
                             }, 2000);
                         </script>
                     @endif
-                    <fieldset class="box-auth-pass mb-16 tf-field icon-absolute">
+                    <fieldset class="box-auth-pass mb-16 icon-absolute">
                         <i class="icon-lock"></i>
-                        <input type="text" name="old_password" placeholder=" "
-                            class="password-field tf-field-input tf-input" required
-                            style="-webkit-text-security: disc;"
+                        <input type="password" name="old_password" placeholder="Old Password"
+                            class="password-field tf-input" required
+                            style="padding-top: 12px; padding-bottom: 12px;"
                             autocomplete="off">
-                        <label class="tf-field-label">Old Password</label>
                         <span class="show-pass">
                             <span class="icon-eye"></span>
                             <span class="icon-eye-off"></span>
                         </span>
                     </fieldset>
-                    <fieldset class="box-auth-pass mb-16 tf-field icon-absolute">
+                    <fieldset class="box-auth-pass mb-16 icon-absolute">
                         <i class="icon-lock"></i>
-                        <input type="password" name="password" placeholder=" "
-                            class="password-field tf-field-input tf-input" required>
-                        <label class="tf-field-label">New Password</label>
+                        <input type="password" name="password" placeholder="New Password"
+                            class="password-field tf-input" required
+                            style="padding-top: 12px; padding-bottom: 12px;">
                         <span class="show-pass">
                             <span class="icon-eye"></span>
                             <span class="icon-eye-off"></span>
                         </span>
                     </fieldset>
-                    <fieldset class="box-auth-pass mb-16 tf-field icon-absolute">
+                    <fieldset class="box-auth-pass mb-16 icon-absolute">
                         <i class="icon-lock"></i>
-                        <input type="password" name="password_confirmation" placeholder=" "
-                            class="password-field tf-field-input tf-input" required>
-                        <label class="tf-field-label">Confirm Password</label>
+                        <input type="password" name="password_confirmation" placeholder="Confirm Password"
+                            class="password-field tf-input" required
+                            style="padding-top: 12px; padding-bottom: 12px;">
                         <span class="show-pass">
                             <span class="icon-eye"></span>
                             <span class="icon-eye-off"></span>
