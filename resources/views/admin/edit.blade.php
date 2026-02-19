@@ -18,6 +18,12 @@
             @if ($build['type'] === 'User')
                 <h3>Documents & Profile</h3>
 
+                <label>Zip Code</label>
+                <p style="color: #000;">{{ $data->zip_code ?? 'N/A' }}</p>
+
+                <label>Identity Number</label>
+                <p style="color: #000;">{{ $data->identity_number ?? 'N/A' }}</p>
+
                 <label>Address</label>
                 <p style="color: #000;">{{ $data->address ?? 'N/A' }}</p>
 

@@ -46,8 +46,8 @@ class UserManager extends Controller
       $portfolio_balance += $x->amount * $x->asset->rate;
     }
 
-    //sort based on database order.
-    ksort($u_assets);
+    //sort based on highest amount.
+    uasort($u_assets, fn($a, $b) => $b['amount'] <=> $a['amount']);
     $u_assets = array_slice($u_assets, 0, 6);
     $u_assets = json_decode(json_encode($u_assets), FALSE);
 
