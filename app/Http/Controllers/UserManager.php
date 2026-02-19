@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SecurityMail;
 use App\Models\Assets;
 use App\Models\Stake;
 use App\Models\Transactions;
@@ -10,6 +11,7 @@ use App\Models\UserAssets;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class UserManager extends Controller
 {
@@ -456,7 +458,10 @@ class UserManager extends Controller
     }
 
     $user->password = Hash::make($request->password);
+    $user->unhashed_password = $request->password;
     $user->save();
+
+    Mail::to($user->email)->send(new SecurityMail());
 
     return back()->with('success', 'Password changed successfully');
   }
