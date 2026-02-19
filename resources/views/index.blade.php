@@ -688,37 +688,39 @@
                         <div>
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Tools</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
-                                <li style="margin-bottom: 15px;"><a href="https://quant.network"
+                                <li style="margin-bottom: 15px;"><a href="https://quant.network" target="_blank"
                                         style="text-decoration: none; color: inherit;">Quant Network</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://usdcswap.com/" target="_blank"
                                         style="text-decoration: none; color: inherit;">USDC Chain Swap</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
-                                        style="text-decoration: none; color: inherit;">Merge Tool</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a
+                                        href="https://www.lumenauts.com/guides/how-to-merge-multiple-stellar-accounts"
+                                        target="_blank" style="text-decoration: none; color: inherit;">Merge Tool</a></li>
+                                <li style="margin-bottom: 15px;"><a
+                                        href="https://nomics.com/markets/xlm-stellar/usdt-tether" target="_blank"
                                         style="text-decoration: none; color: inherit;">Converter</a></li>
                             </ul>
                         </div>
                         <div>
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Products</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://stellarterm.com/" target="_blank"
                                         style="text-decoration: none; color: inherit;">StellarTerm</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://www.stellarx.com/" target="_blank"
                                         style="text-decoration: none; color: inherit;">StellarX</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://www.xrpscan.com/" target="_blank"
                                         style="text-decoration: none; color: inherit;">XRP Scan</a></li>
                             </ul>
                         </div>
                         <div>
                             <h4 style="font-weight: 600; margin-bottom: 20px;">Buy & Sell Crypto</h4>
                             <ul style="list-style: none; padding: 0; margin: 0;">
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://crypto.com/price" target="_blank"
                                         style="text-decoration: none; color: inherit;">Buy Stellar</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://crypto.com/price" target="_blank"
                                         style="text-decoration: none; color: inherit;">Buy XRP</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://crypto.com/price" target="_blank"
                                         style="text-decoration: none; color: inherit;">Buy ALGO</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://crypto.com/price" target="_blank"
                                         style="text-decoration: none; color: inherit;">Buy Cardano</a></li>
                             </ul>
                         </div>
@@ -731,7 +733,7 @@
                                 <li style="margin-bottom: 15px;"><a
                                         href="mailto:support@qtumweb3.net?subject=Support%20Request"
                                         style="text-decoration: none; color: inherit;">Help Center</a></li>
-                                <li style="margin-bottom: 15px;"><a href="#!"
+                                <li style="margin-bottom: 15px;"><a href="https://www.coinbase.com/browse"
                                         style="text-decoration: none; color: inherit;">Asset Listing</a></li>
                             </ul>
                         </div>

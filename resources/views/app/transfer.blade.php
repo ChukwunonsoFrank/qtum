@@ -47,6 +47,8 @@
                                             {{ strtoupper($asset->asset->name) }}@if ($asset->asset->network)
                                                 ({{ strtoupper($asset->asset->network) }})
                                             @endif
+                                            - ({{ $asset->amount }}
+                                            {{ strtoupper($asset->asset->name) }})
                                         </option>
                                     @endforeach
                                 </select>

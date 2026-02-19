@@ -338,9 +338,7 @@
                                             <option value="Zambia">Zambia</option>
                                             <option value="Zimbabwe">Zimbabwe</option>
                                         </select>
-                                        <div class="icon">
-                                            <i class="icon-direction-down"></i>
-                                        </div>
+
                                     </div>
                                 </div>
                             </fieldset>
