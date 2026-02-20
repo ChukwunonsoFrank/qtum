@@ -23,3 +23,4 @@
 <link href="{{ asset('admin/assets/css/sweetalert.min.css') }}" rel="stylesheet" type="text/css">
 
 <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+ <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>

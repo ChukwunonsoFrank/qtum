@@ -179,8 +179,8 @@ class UserManager extends Controller
       $u_assets[$x->asset->id]['network'] = $x->asset->network;
     }
 
-    //sort based on database order.
-    ksort($u_assets);
+    //sort based on highest amount.
+    uasort($u_assets, fn($a, $b) => $b['amount'] <=> $a['amount']);
     $u_assets = json_decode(json_encode($u_assets), FALSE);
 
     return view('app/tokens', compact(['user', 'u_assets']));

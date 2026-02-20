@@ -31,7 +31,11 @@
 
             </tbody>
         </table>
+        <div style="height: 72px; overflow: hidden;">
+            <tv-ticker-tape
+                symbols='CRYPTOCAP:XRP,CRYPTOCAP:XLM,,CRYPTOCAP:PAXG,CRYPTOCAP:XDC,CRYPTOCAP:ALGO,CRYPTOCAP:QNT,CRYPTOCAP:ADA,CRYPTOCAP:QTUM,CRYPTOCAP:USDC'
+                theme="light"></tv-ticker-tape>
+        </div>
     </div>
 
 @endsection
-
